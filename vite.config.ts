@@ -15,7 +15,7 @@ const packageJson = JSON.parse(
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/duckdev-tools/",
+  base: "/",
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src"),

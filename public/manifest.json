@@ -2,7 +2,7 @@
   "name": "DuckDev Tools",
   "short_name": "DuckDev",
   "description": "A comprehensive suite of developer tools including color palette, password generator, JWT creator, and more",
-  "start_url": "/duckdev-tools/",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#0a0a0a",
   "theme_color": "#3b82f6",
@@ -12,25 +12,25 @@
   "categories": ["developer", "utilities", "productivity"],
   "icons": [
     {
-      "src": "/duckdev-tools/icons/logo_64x64.png",
+      "src": "/icons/logo_64x64.png",
       "sizes": "64x64",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/duckdev-tools/icons/logo_512x512.png",
+      "src": "/icons/logo_512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "any"
     },
     {
-      "src": "/duckdev-tools/icons/logo_192x192.png",
+      "src": "/icons/logo_192x192.png",
       "sizes": "192x192",
       "type": "image/png",
       "purpose": "maskable"
     },
     {
-      "src": "/duckdev-tools/icons/logo_512x512.png",
+      "src": "/icons/logo_512x512.png",
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"

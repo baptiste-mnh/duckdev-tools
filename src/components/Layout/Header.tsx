@@ -12,7 +12,7 @@ export default function Header() {
         <div className="flex items-center gap-4">
           <div className="w-12 h-12 bg-gradient-to-br from-primary-500 to-secondary-500 rounded-xl flex items-center justify-center text-2xl font-bold text-white">
             <img
-              src="/duckdev-tools/icons/logo_512x512.png"
+              src="/icons/logo_512x512.png"
               alt="DuckDev Tools"
               className="w-12 h-12"
             />
@@ -40,7 +40,7 @@ export default function Header() {
           )}
 
           <a
-            href="https://github.com/baptiste-mnh/duckdev-tools"
+            href="https://github.com/baptiste-mnh"
             target="_blank"
             rel="noopener noreferrer"
             className="p-2 bg-dark-800 hover:bg-dark-700 border border-dark-600 rounded-lg transition-colors duration-200 text-gray-400 hover:text-white group"
@@ -51,10 +51,7 @@ export default function Header() {
 
           <button
             onClick={() => {
-              window.open(
-                "https://github.com/baptiste-mnh/duckdev-tools",
-                "_blank"
-              );
+              window.open("https://github.com/baptiste-mnh", "_blank");
             }}
             className="flex items-center gap-2 px-3 py-2 bg-dark-800 hover:bg-dark-700 border border-dark-600 rounded-lg transition-colors duration-200 text-gray-400 hover:text-white group"
             title="Étoiler sur GitHub"

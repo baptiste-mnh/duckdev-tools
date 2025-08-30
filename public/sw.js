@@ -3,12 +3,12 @@ const STATIC_CACHE = "static-v1";
 const DYNAMIC_CACHE = "dynamic-v1";
 
 const urlsToCache = [
-  "/duckdev-tools/",
-  "/duckdev-tools/index.html",
-  "/duckdev-tools/manifest.json",
-  "/duckdev-tools/icons/logo_64x64.png",
-  "/duckdev-tools/icons/logo_192x192.png",
-  "/duckdev-tools/icons/logo_512x512.png",
+  "/",
+  "/index.html",
+  "/manifest.json",
+  "/icons/logo_64x64.png",
+  "/icons/logo_192x192.png",
+  "/icons/logo_512x512.png",
 ];
 
 // Install event - cache resources
@@ -31,7 +31,7 @@ self.addEventListener("fetch", (event) => {
   if (request.mode === "navigate") {
     event.respondWith(
       fetch(request).catch(() => {
-        return caches.match("/duckdev-tools/index.html");
+        return caches.match("/index.html");
       })
     );
     return;

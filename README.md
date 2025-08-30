@@ -6,7 +6,7 @@ A comprehensive collection of essential developer tools that work entirely offli
   <img src="public/logo.png" alt="DuckDev Tools" style="width: 120px; height: 120px; border-radius: 50%; object-fit: cover;" />
 </div>
 
-Try it out at [https://baptiste-mnh.github.io/duckdev-tools/](https://baptiste-mnh.github.io/duckdev-tools/)
+Try it out at [https://duck-dev-tools.manach.dev/](https://duck-dev-tools.manach.dev/)
 
 ## 🚀 Features
 

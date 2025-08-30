@@ -15,7 +15,7 @@ const packageJson = JSON.parse(
 // Production config optimized for GitHub Pages
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  base: "/duckdev-tools/",
+  base: "/",
   resolve: {
     alias: {
       "@": resolve(__dirname, "./src"),
